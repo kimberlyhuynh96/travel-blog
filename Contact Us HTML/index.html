@@ -1,204 +1,49 @@
 <!DOCTYPE html>
-<html>
-<title> Travel Blog </title>
-
-<head>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="styles.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	  <style>
-	    header {
-	      text-align: center;
-
-	    }
-
-	    img {
-	      margin: 40px 0px 0px 0px;
-	      border: 7px solid white;
-	      border-radius: 20px;
-	    }
-
-			li {
-				text-align: center;
-			}
-
-			.fa {
-				padding: 15px;
-				font-size: 30px;
-				width: 65px;
-				text-align: center;
-				text-decoration: none;
-				border-radius: 50%;
-			}
-
-			.fa:hover {
-				opacity: 0.7;
-			}
-
-			.fa-facebook {
-				background: #3B5598;
-				color: white;
-			}
-
-			.fa-twitter {
-				background: #55ACEE;
-				color: white;
-			}
-
-			.fa-instagram {
-				background: #125688;
- 				color: white;
-			}
-
-			.fa-youtube {
-				background: #bb0000;
-				color: white;
-			}
-
-			.fa-pinterest {
-				background: #cb2027;
-				color: white;
-			}
-
-			.fa-linkedin {
-				background: #007bb5;
-				color: white;
-			}
-
-			.fa-tumblr {
-				background: #2c4762;
-				color: white;
-			}
+<!-- saved from url=(0094)file:///C:/Users/Kimberly%20Huynh/Desktop/coding_source/website/Contact%20Us%20HTML/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title> Contact Us </title>
 
 
-		</style>
-
+	<link rel="stylesheet" href="./Contact Us_files/font-awesome.min.css">
+	<link href="file:///C:/Users/Kimberly%20Huynh/Desktop/coding_source/website/Contact%20Us%20HTML/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="./Contact Us_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
+<body><div class="container">
+  <form action="file:///C:/Users/Kimberly%20Huynh/Desktop/coding_source/website/Contact%20Us%20HTML/action_page.php">
 
-<header>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-	<nav class="navbar navbar-dark bg-dark">
-  <span class="navbar-brand mb-0 h1">TRAVEL</span>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-	<div class="btn-group">
-		<button type="button" class="btn btn-primary">Home</button>
-		<button type="button" class="btn btn-secondary">About Us</button>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
 
-	<div class="btn-group">
-		<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-				Blogs <span class="caret"></span></button>
-				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">Latest Blogs</a>
-					<li><a href="#">Popular Blogs</a>
-				</ul>
-			</div>
-	<div>
-	<div class="btn-group">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="argentina">Argentina</option>
+      <option value="australia">Australia</option>
+      <option value="usa">Belgium</option>
+      <option value="cambodia">Cambodia</option>
+      <option value="canada">Canada</option>
+      <option value="dominican republic">Dominican Republic</option>
+      <option value="ecuador">Ecuador</option>
+      <option value="france">France</option>
+      <option value="greece">Greece</option>
+      <option value="japan">Japan</option>
+      <option value="united states">United States</option>
+      <option value="united kingdom">United Kingdom</option>
+      <option value="venezula">Venezula</option>
+      <option value="usa">United States</option>
+      <option value="usa">United States</option>
+    </select>
 
-		<button type="button" class="btn btn-danger">Travel Tips</button>
-		<button type="button" class="btn btn-warning">Resources</button>
-		<button type="button" class="btn btn-info">Videos</button>
-		<button type="button" class="btn btn-light"><a href="Contact Us HTML/index.html">Contact Us</a></button>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-	</div>
+    <input type="submit" value="Submit">
 
-	</nav>
-
-</header>
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Travel Quote of the Day</h1>
-		<hr class"my-4">
-    <p class="lead">"Take only memories, leave only footprints." -Chief Seattle </p>
-  </div>
+  </form>
 </div>
-
-<body>
-	<div class="row">
-	  <div class="col-sm-3">
-			<div class="card" style="width: 18rem;">
-			  <img src="card - tropical locations.jpg" class="rounded-circle">
-	      <div class="card-body">
-	        <h5 class="card-title">Tropical Locations</h5>
-	        <p class="card-text">It is never too late to experience diverse holidays.</p>
-	        <a href="#" class="btn btn-primary">Find out more!</a>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="col-sm-3">
-	    <div class="card" style="width: 18rem;">
-				<img src="card - winter holidays.jpg" class="rounded-circle">
-	      <div class="card-body">
-	        <h5 class="card-title">Winter Trips</h5>
-	        <p class="card-text">The world's a big place. Holiday time is precious.</p>
-	        <a href="#" class="btn btn-primary">Find out more!</a>
-	      </div>
-	    </div>
-	  </div>
-
-
-
-	  <div class="col-sm-3">
-			<div class="card" style="width: 18rem;">
-			  <img src="card - luxury holidays.jpg" class="rounded-circle">
-	      <div class="card-body">
-	        <h5 class="card-title">Luxury Holidays</h5>
-	        <p class="card-text">From chic, boutique hotels and iconic resorts to unbelievable tours, you can experience it all!</p>
-	        <a href="#" class="btn btn-primary">Find out more!</a>
-	      </div>
-	    </div>
-		</div>
-
-
-	  <div class="col-sm-3">
-	    <div class="card" style="width: 18rem;">
-				<img src="card - cruise holidays.jpg" class="rounded-circle">
-	      <div class="card-body">
-	        <h5 class="card-title">Cruise Holidays</h5>
-	        <p class="card-text">When you ge a holiday right, you want that feeling - that moment - to last forever.</p>
-	        <a href="#" class="btn btn-primary">Find out more!</a>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-</div>
-
-</body>
-
-<div class="container">
-		<div class="row">
-			<div class="span12">
-				<div class="thumbnail center well well-small text-center">
-					<h2> Newsletter <h/2>
-
-						<p> Subscribe to our weekly Newsletter and stay tuned. </p>
-
-						<form action="" method="post">
-                    <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
-                        <input type="text" id="" name="" placeholder="your@email.com">
-                    </div>
-                    <br />
-                    <input type="submit" value="Subscribe Now!" class="btn btn-large" />
-              </form>
-            </div>
-        </div>
-	</div>
-</div>
-
-<a href="#" class ="fa fa-facebook"></a>
-<a href="#" class ="fa fa-instagram"></a>
-<a href="#" class ="fa fa-twitter"></a>
-<a href="#" class ="fa fa-youtube"></a>
-<a href="#" class ="fa fa-linkedin"></a>
-<a href="#" class ="fa fa-tumblr"></a>
-
-
-
-<body>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+</body></html>
